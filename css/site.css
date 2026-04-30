@@ -49,7 +49,8 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 18px 0;
+  padding: 12px 0 6px 0;
+  border-bottom: 1px black solid;
 }
 
 .brand {
@@ -62,10 +63,14 @@ main {
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
+  width: 64px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 nav {
