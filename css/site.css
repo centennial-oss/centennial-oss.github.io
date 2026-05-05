@@ -122,6 +122,20 @@ h1 {
   letter-spacing: 0;
 }
 
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-title img {
+  width: 72px;
+  height: 72px;
+  flex: 0 0 auto;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
 h2 {
   margin-bottom: 12px;
   margin-top: 12px;
@@ -376,5 +390,10 @@ h3 {
 
   .button {
     width: 100%;
+  }
+
+  .app-title {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
