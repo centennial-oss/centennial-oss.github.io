@@ -240,7 +240,7 @@ h3 {
 }
 
 .app-list {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .app-card {
@@ -310,6 +310,11 @@ h3 {
   padding-left: 22px;
 }
 
+.policy address {
+  color: var(--muted);
+  font-style: normal;
+}
+
 .policy-apps {
   display: grid;
   gap: 20px;
@@ -319,7 +324,7 @@ h3 {
   display: grid;
   grid-template-columns: 64px minmax(0, 1fr);
   gap: 18px;
-  align-items: start;
+  align-items: center;
 }
 
 .policy-app img {
