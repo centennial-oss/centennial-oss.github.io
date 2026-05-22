@@ -263,6 +263,14 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.sponsored-app-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.app-card-placeholder {
+  min-height: 1px;
+}
+
 .app-card {
   display: flex;
   flex-direction: column;
@@ -387,8 +395,13 @@ h3 {
   .hero,
   .text-grid,
   .commitments,
-  .app-list {
+  .app-list,
+  .sponsored-app-list {
     grid-template-columns: 1fr;
+  }
+
+  .app-card-placeholder {
+    display: none;
   }
 
   .hero {
